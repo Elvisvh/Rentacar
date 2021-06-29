@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+span{
+	font-weight: 700;
+}
+
+.container-m{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 250px;
+}
+
+.titulo{
+	background: linear-gradient(to right, #bb34a481, #611eb979), url(../images/portada.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 40vh;
+	color: #ffff;
+	font-size: large;
+	
+}
+
+.titulo-titulo{
+	text-align: center;
+	
+}
+
+.menu{
+	
+	width: 20%;
+	height: 120vh;
+	background: #ececec;
+	
+	
+}
+.menu-contenido{
+	margin-top: 10vh;
+	text-align: center;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	color: #2e0d28;
+}
+
+
+
+.menu-a{
+	text-decoration: none;
+	padding: 10px;
+	color: #2e0d28;
+}
+
+.menu-a:hover{
+	background: #bb34a4;
+	color: #ffff;
+}
+
+
+
+.contenido{
+	
+	width: 100%;
+	height: 60vh;
+}
+
+.contenedor-contenido{
+	padding: 15px 20vh;
+}
+
+.contenido-titulo{
+	text-align: center;
+	
+}
+
+.img-port{
+	display: flex;
+	
+}
+
+.img-port-contenedor{
+	width: 200px;
+	padding: calc(20px);
+	
+	
+}
+
+.img-port-contenedor > h3{
+	text-align: center;
+}
+
+.img-port-contenedor > img{
+	width: 100%;
+	box-shadow: 3px 1px 5px black;
+}
+
+.contenido-contacto{
+	margin: 100px;
+}
+
+#galeria{
+	border: 1px solid #1E0EAC;
+	Width: 600px;
+	Height: 100px;
+	Margin: auto;
+}
+
+#galeria > div{
+	width: 120px;
+	height: 100px;
+	display: inline-block;
+}
+
+
+
+#galeria-contenedor{
+	Width: 600px;
+	Height: 400px;
+	Margin-top: 0px;
+	Margin-right: auto;
+	Margin-bottom: auto;
+	Margin-left: auto;
+	border: 1px solid #1E0EAC;
+}
+
+#galeria > a{
+	margin: 0; 
+	padding: 0;
+}
+
+#carro1{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	border: 1px solid #1E0EAC;
+	overflow: hidden;
+	visibility: hidden;
+	
+}
+
+#carro2{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	border: 1px solid #1E0EAC;
+	overflow: hidden;
+	visibility: hidden;
+	
+}
+
+#carro3{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	border: 1px solid #1E0EAC;
+	overflow: hidden;
+	visibility: hidden;
+	
+}
+
+#carro4{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	border: 1px solid #1E0EAC;
+	overflow: hidden;
+	visibility: hidden;
+	
+}
+
+.contenedor-contenido > img{
+	width: 50%;
+	display: block;
+	margin: auto;
+	
+}
+
+@media screen and (max-width: 768px){
+	.contenedor-contenido{
+		padding: 0;
+		width: 100%;
+	}
+
+	.img-port-contenedor{
+		width: 100%;
+		padding: calc(5px);
+		
+		
+	}
+
+	.img-port-contenedor > img{
+		width: 60%;
+		
+	}
+	.contenedor-contenido > img{
+		width: 100%;
+		margin-bottom: 50%;
+
+	}
+}
